@@ -1,0 +1,21 @@
+class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Declare the marks
+		double sem1 = 3.67;
+		double sem2 = 3.70;
+		double total ;
+		
+		total = (sem1 + sem2)/2 ; 
+	    
+
+	 
+	    System.out.println("The average CGPA is :" + total );
+	    System.out.println("My name is Kaamini Kulanthlu");
+	    System.out.println("I am from Pahang Matriculation College");
+	    System.out.println("This is my CGPA");
+	    System.out.println("The Semester 1 GPA is :" + sem1);
+	    System.out.println("The Semester 2 GPA is :" + sem2);
+	}
