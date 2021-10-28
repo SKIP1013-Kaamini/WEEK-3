@@ -1,0 +1,45 @@
+package numericalData;
+
+class numericalData {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Declare 5 number
+				int num1 = 11;
+				int num2 = 22;
+				int num3 = 33;
+				int num4 = 44;
+				int num5 = 55;
+				double num6 = 66;
+				double num7 = 88;
+				float num8 = 99;
+				float num9 = 200;
+				int sum,avg;
+				double div;
+				float div2;
+				double mul, mul2;
+				
+				//Calculate sum
+				sum = num1 + num2 + num3 + num4 + num5;
+				avg = sum/5;
+				div = num6/num7;
+				div2 = num9/ num8;
+				mul = num1* num2* num3* num4* num5* num6* num7* num8* num9;
+				mul2 = (num1*num2)/num5;
+				System.out.print("The sum is : " + sum);
+				System.out.println();
+				System.out.println("The average is : " + avg);
+				System.out.printf("The divide number is : %.2f " , + div);
+				System.out.println();
+				System.out.printf("The divide of float number is : %.2f ", + div2);
+				System.out.println();
+				System.out.printf("The multiplication number is : %.2f ", + mul);
+				System.out.println();
+				System.out.print("The answer for mul2 is : " + mul2);
+	
+				
+
+	}
+
+}
